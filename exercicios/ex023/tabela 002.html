@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p{
+            text-align: justify;
+            text-align: center;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            margin: auto;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 13px;
+        }
+        thead{
+            background-color: rgba(0, 0, 0, 0.507);
+            color: white;
+        }
+        tbody>tr:nth-child(2n){
+            background-color: rgba(0, 0, 0, 0.158);
+        }
+        td ,th{
+            border: 1px solid black;
+            padding: 6px;
+            
+        }
+        tfoot{
+            background-color: rgba(0, 0, 0, 0.507);
+            color: white;
+        }
+        .estado{
+            text-align: left;
+        }
+        .populacao{
+            text-align: right;
+        }
+        .populacao2{
+            text-align: center;
+        }
+        td#especial{
+            font-weight: bolder;
+            color: black;
+            
+        }
+        
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>
+            Lista de unidades federativas do Brasil por população
+            
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col" style="width: 90px;">Posição</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="populacao2">1</td>
+                <td class="estado">São Paulo</td> <td class="populacao">44 411 238</td>
+            </tr>
+            <tr>
+                <td class="populacao2">2</td>
+                <Td class="estado">Minas Gerais</Td> <td class="populacao">20 538 718</td>
+            </tr>
+            <tr>
+                <td class="populacao2">3</td>
+                <td class="estado">Rio de Janeiro</td> <td class="populacao">16 054 524</td>
+            </tr>
+            <tr>
+                <td class="populacao2">4</td>
+                <td class="estado">Bahia</td> <td class="populacao">14 141 626</td>
+            </tr>
+            <tr>
+                <td class="populacao2">5</td>
+                <td class="estado">Paraná</td> <td class="populacao">11 444 380</td>
+            </tr>
+            <tr>
+                <td class="populacao2">6</td>
+                <td class="estado">Rio Grande do Sul</td> <td class="populacao">10 882 965</td>
+            </tr>
+            <tr>
+                <td class="populacao2">7</td>
+                <td class="estado"> Pernambuco</td> <td class="populacao">9 058 931	</td>
+            </tr>
+            <tr>
+                <td class="populacao2">8</td>
+                <td class="estado">Ceará</td> <td class="populacao">8 794 957	</td>
+            </tr>
+            <tr>
+                <td class="populacao2">9
+                </td>
+                <td class="estado">Pará</td> <td class="populacao">8 121 025	</td>
+            </tr>
+            <tr>
+                <td class="populacao2">10</td>
+                <td class="estado">Santa Catarina</td> <td class="populacao">7 610 361</td>
+            </tr>
+            <tr>
+                <td class="populacao2">11</td>
+                <td class="estado">Goiás</td> <td class="populacao">7 056 495</td>
+            </tr>
+            <tr>
+                <td class="populacao2">12</td>
+                <td class="estado">Maranhão</td> <td class="populacao">6 775 805</td>
+            </tr>
+            <tr>
+                <td class="populacao2">13</td>
+                <td class="estado">Paraíba</td> <td class="populacao">3 974 687</td>
+            </tr>
+            <tr>
+                <td class="populacao2">14</td>
+                <td class="estado">Amazonas</td> <td class="populacao">3 941 613</td>
+            </tr>
+            <tr>
+                <td class="populacao2">15</td>
+                <td class="estado">Espírito Santo</td> <td class="populacao">3 833 712</td>
+            </tr>
+            <tr>
+                <td class="populacao2">16</td>
+                <td class="estado">Mato Grosso</td> <td class="populacao">3 658 649</td>
+            </tr>
+            <tr>
+                <td class="populacao2">17</td>
+                <td class="estado">Rio grande do Norte</td> <td class="populacao">3 302 729	</td>
+            </tr>
+            <tr>
+                <td class="populacao2">18</td>
+                <td class="estado">Piauí</td> <td class="populacao">3 271 199</td>
+            </tr>
+            <tr>
+                <td class="populacao2">19</td>
+                <td class="estado">Alagoas</td> <td class="populacao">3 127 683</td>
+            </tr>
+            <tr>
+                <td class="populacao2">20</td>
+                <td class="estado">Distrito Fedral</td> <td class="populacao">2 817 381</td>
+            </tr>
+            <tr>
+                <td class="populacao2">21</td>
+                <td class="estado">Mato Grosso do Sul</td> <td class="populacao">2 757 013</td>
+            </tr>
+            <tr>
+                <td class="populacao2">22</td>
+                <td class="estado">Sergipe</td> <td class="populacao">2 209 558</td>
+            </tr>
+            <tr>
+                <td class="populacao2">23</td>
+                <td class="estado">Rondônia</td> <td class="populacao">1 581 196	</td>
+            </tr>
+            <tr>
+                <td class="populacao2">24</td>
+                <td class="estado">Tocantins</td> <td class="populacao">1 511 460</td>
+            </tr>
+            <tr>
+                <td class="populacao2">25</td>
+                <td class="estado">Acre</td> <td class="populacao">830 018</td>
+            </tr>
+            <tr>
+                <td class="populacao2">26</td>
+                <td class="estado">Amapá</td> <td class="populacao">733 759</td>
+            </tr>
+            <tr>
+                <td class="populacao2">27</td>
+                <td class="estado">Roraima</td> <td class="populacao">636 707	</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td  style="text-align: center;">Brasil</td>
+                <th style="text-align: left;">Total de Habitantes</th>
+                
+                <td id="especial" class="populacao">203.062.512</td>
+                
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
