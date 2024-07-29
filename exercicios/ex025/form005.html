@@ -6,6 +6,28 @@
     <title>Formulário</title>
 </head>
 <body>
-    <h1></h1>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas" value="M"><label for="isxmas">Masculino</label> <br>
+            <input type="radio" name="sexo" id="isxfem" value="F" checked><label for="isxfem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="bas" id="ibas"> 
+            <label for="ibas">Basquete </label><br>
+            <input type="checkbox" name="fut" id="ifut" checked >
+            <label for="ifut">Futebol</label> <br>
+            <input type="checkbox" name="nat" id="inat">
+            <label for="inat">Natação </label><br>
+            <input type="checkbox" name="ten" id="iten">
+            <label for="iten">Tênis</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
