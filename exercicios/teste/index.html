@@ -1,18 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <form action="cadastro.php" autocomplete="off" method="post">
-        <p><label for="inome">Nome:</label>
-        <input required minlength="8"  type="text" name="nome" id="inome">
-        </p>
-        <p><label for="isenha">Senha:</label> <input type="password" name="senha" id="isenha"></p>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Limpar">
+    <form action="cadastro.php">
+
+           <fieldset>
+            <legend><label for="iesta">Estados</label></legend>
+               <select name="esta" id="iesta">
+                <optgroup label="Região sudeste">
+                    <option value="">---Escolha---</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="Sp">São paulo</option>
+                        <option value="MG">Minas gerais</option>
+                                   </select>
+                </optgroup>
+           </fieldset>
+           <fieldset>
+            <legend>Profissões</legend>
+            <input type="text" name="Profissões" id="iprof" list="iprofissoes">
+            <datalist id="iprofissoes">
+                <option value="ADM">Administrador</option>
+                <option value="Dev">Desenvolvedor</option>
+                <option value="Prof">Professor</option>
+            </datalist>
+        </fieldset>
+       <fieldset>
+            <legend>Mensagens</legend>
+            <textarea name="msg" id="ismg">
+                
+            </textarea>
+       </fieldset>
     </form>
 </body>
 </html>
