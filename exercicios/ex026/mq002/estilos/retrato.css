@@ -1,5 +1,6 @@
-@charset "UTF-8";
-/*configuração aparelho em pé (Portrait)*/
+/* configuração tela em pé*/
 body{
+    height: 600px;
     background-image: url(../imagens/cev-portrait.jpg);
+    background-position: bottom center;
 }
