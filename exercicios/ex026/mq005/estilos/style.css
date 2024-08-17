@@ -128,18 +128,23 @@ p#jogo{
     font-weight: bolder;
     text-align: justify;
     width: 210px;
+    position: absolute;
+    top: 90px;
 }
 p#baseball{
     font-size: 0.6em;
     font-weight: bolder;
     text-align: justify;
     width: 210px;
+    position: absolute;
+    top: 210px;
 }
 p#ciclismo{
     font-size: 0.6em;
     font-weight: bolder;
     text-align: justify;
-    width: 235px;
+    width: 215px;
+    
 }
 p#natacao{
     font-size: 0.6em;
@@ -167,7 +172,7 @@ footer a:hover{
     text-decoration: underline;
 }
 a#Criadores{
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-decoration: none;
     
 }
