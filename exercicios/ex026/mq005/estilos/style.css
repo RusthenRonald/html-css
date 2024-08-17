@@ -91,6 +91,50 @@ article p{
     margin-bottom: 20px;
     text-indent: 20px;
 }
+section#noticias {
+    position: relative;
+}
+h2.transp{
+    height: 25px;
+    padding: 15px;
+    background-image: linear-gradient(to right,var(--cor2),transparent);
+    margin-bottom: 20px;
+}
+section#noticias img{
+    width: 150px;
+    height: 100px;
+    padding-left: 20px;
+}
+img#baseball{
+    margin-top: 20px;
+}
+img#ciclismo{
+    margin-top: 20px;
+}
+img#natacao{
+    margin-top: 20px;
+    
+}
+p.jogosp{
+    width: 290px;
+    font-size: 1.1em;
+    display: inline-block;
+    padding-left: 10px;
+}
+/*Diminuição da fonte de cada parágrafo*/
+p#jogo{
+    font-size: 0.8em;
+}
+p#baseball{
+    font-size: 0.8em;
+}
+p#ciclismo{
+    font-size: 0.8em;
+}
+p#natacao{
+    font-size: 0.7em;
+}
+/*Rodapé*/
 footer{
     background-color: var(--cor5);
     height: 150px;

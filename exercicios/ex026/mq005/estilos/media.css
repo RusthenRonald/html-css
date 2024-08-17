@@ -14,8 +14,8 @@ Tablet: 768px até 992px
 Desktop :992px até 1200px
 Grandes telas : acima de 1200px
 */
-/*Tablet pra cima*/
-@media screen and (min-width:768px){
+/*Tablet */
+@media screen and (min-width:768px) and (max-width:992px){
     header{
         background-image: linear-gradient(to bottom, var(--cor3) , var(--cor5));
     }
@@ -37,7 +37,18 @@ Grandes telas : acima de 1200px
         display: inline-block;
     }
     main{
-        width: 768px;
+        width: 75vw;
+        height: 300px;
+    }
+    main h2{
+        font-size: 1.4em;
+    }
+    h2.transp{
+        
+    }
+    main p{
+        font-size: 1.2em;
+
     }
     menu > ul >li >a{
         border-top: 0px;
@@ -50,5 +61,178 @@ Grandes telas : acima de 1200px
         color: var(--cor5);
         transition-duration: 0.7s;
     }
-    
+    /*onfigurações das imagens*/
+    section#noticias img{
+        width: 150px;
+        height: 100px;
+        padding-left: 20px;
+    }
+    p.jogosp{
+        width: 400px;
+        font-size: 2.0em;
+        display: inline-block;
+        padding-left: 20px;
+        color: var(--cor5);
+    }
+    /*Aumento de parágrafos em telas grandes*/
+    p#jogo{
+        font-size: 1.0em;
+    }
+    p#baseball{
+        font-size: 1.0em;
+    }
+    p#ciclismo{
+        font-size: 1.0em;
+    }
+    p#natacao{
+        font-size: 0.9em;
+    }
+}
+/*Desktop pra cima*/
+@media screen and (min-width:992px) and (max-width:1400px){
+    header{
+        background-image: linear-gradient(to bottom, var(--cor3) , var(--cor5));
+    }
+    header h1{
+        font-size: 5.5em;
+    }
+    header p{
+        font-size: 1em;
+    }
+    span#burguer{
+        display: none;
+        
+    }
+    menu{
+        display: block;
+        background-color: var(--cor4);
+    }
+    menu>ul>li{
+        display: inline-block;
+    }
+    main{
+        width: 75vw;
+        height: 400px;
+    }
+    main h2{
+        font-size: 1.6em;
+    }
+    h2.transp{
+        
+    }
+    main p{
+        font-size: 1.6em;
+
+    }
+    menu > ul >li >a{
+        border-top: 0px;
+        padding: 20px;
+        color: var(--cor1);
+        background-color: var(--cor4);
+    }
+    menu> ul >li> a:hover{
+        background-color: var(--cor3);
+        color: var(--cor5);
+        transition-duration: 0.7s;
+    }
+    /*onfigurações das imagens*/
+    section#noticias img{
+        width: 150px;
+        height: 100px;
+        padding-left: 20px;
+    }
+    p.jogosp{
+        width: 400px;
+        font-size: 2.0em;
+        display: inline-block;
+        padding-left: 20px;
+        color: var(--cor5);
+    }
+    /*Aumento de parágrafos em telas grandes*/
+    p#jogo{
+        font-size: 1.0em;
+    }
+    p#baseball{
+        font-size: 1.0em;
+    }
+    p#ciclismo{
+        font-size: 1.0em;
+    }
+    p#natacao{
+        font-size: 0.9em;
+    }
+}
+@media screen and (min-width:1400px) {
+    header{
+        background-image: linear-gradient(to bottom, var(--cor3) , var(--cor5));
+    }
+    header h1{
+        font-size: 5.5em;
+    }
+    header p{
+        font-size: 1em;
+    }
+    span#burguer{
+        display: none;
+        
+    }
+    menu{
+        display: block;
+        background-color: var(--cor4);
+    }
+    menu>ul>li{
+        display: inline-block;
+    }
+    main{
+        width: 75vw;
+        height: 620px;
+        padding: 10px;
+    }
+    main h2{
+        font-size: 2.0em;
+    }
+    h2.transp{
+        
+    }
+    main p{
+        font-size: 2.4em;
+
+    }
+    menu > ul >li >a{
+        border-top: 0px;
+        padding: 20px;
+        color: var(--cor1);
+        background-color: var(--cor4);
+    }
+    menu> ul >li> a:hover{
+        background-color: var(--cor3);
+        color: var(--cor5);
+        transition-duration: 0.7s;
+    }
+    /*onfigurações das imagens*/
+    section#noticias img{
+        width: 150px;
+        height: 100px;
+        padding-left: 20px;
+    }
+    p.jogosp{
+        width: 400px;
+        font-size: 2.0em;
+        display: inline-block;
+        padding-left: 20px;
+        color: var(--cor5);
+    }
+    /*Aumento de parágrafos em telas grandes*/
+    p#jogo{
+        font-size: 1.0em;
+    }
+    p#baseball{
+        font-size: 1.0em;
+    }
+    p#ciclismo{
+        font-size: 1.0em;
+    }
+    p#natacao{
+        font-size: 0.9em;
+    }
 }
