@@ -46,6 +46,7 @@ Grandes telas : acima de 1200px
     }
     h2.transp{
         font-size: 1.4em;
+        height: 22px;
     }
     main p{
         font-size: 1.2em;
@@ -78,14 +79,14 @@ Grandes telas : acima de 1200px
     p#jogo{
         font-size: 1.0em;
         position: absolute;
-        top: 120px;
+        top: 110px;
         text-align: justify;
         width: 350px;
     }
     p#baseball{
         font-size: 1.0em;
         position: absolute;
-        top: 340px;
+        top: 330px;
         text-align: justify;
         width: 350px;
     }
@@ -93,13 +94,13 @@ Grandes telas : acima de 1200px
         font-size: 1.0em;
         position: absolute;
         text-align: justify;
-        top: 560px;
+        top: 550px;
         width: 360px;
     }
     p#natacao{
         font-size: 0.9em;
         position: absolute;
-        bottom: 50px;
+        bottom: 55px;
         text-align: justify;
         width: 350px;
     }
@@ -136,6 +137,7 @@ Grandes telas : acima de 1200px
     }
     h2.transp{
         font-size: 1.5em;
+        height: 26px;
     }
     main p{
         font-size: 1.2em;
@@ -227,6 +229,7 @@ Grandes telas : acima de 1200px
     }
     h2.transp{
         font-size: 1.7em;
+        height: 30px;
     }
     main p{
         font-size: 1.5em;
