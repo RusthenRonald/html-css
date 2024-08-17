@@ -124,18 +124,20 @@ p.jogosp{
 }
 /*Diminuição da fonte de cada parágrafo*/
 p#jogo{
-    font-size: 0.5em;
+    font-size: 0.7em;
 }
 p#baseball{
-    font-size: 0.5em;
+    font-size: 0.7em;
 }
 p#ciclismo{
-    font-size: 0.5em;
+    font-size: 0.6em;
+    font-weight: bolder;
 }
 p#natacao{
     font-size: 0.5em;
     position: absolute;
-    bottom: 10px;
+    font-weight: bolder;
+    bottom: 20px;
 }
 /*Rodapé*/
 footer{
