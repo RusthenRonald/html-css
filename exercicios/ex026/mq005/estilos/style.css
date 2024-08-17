@@ -129,7 +129,7 @@ p#jogo{
     text-align: justify;
     width: 210px;
     position: absolute;
-    top: 90px;
+    top: 80px;
 }
 p#baseball{
     font-size: 0.6em;
@@ -151,9 +151,9 @@ p#natacao{
     font-size: 0.6em;
     position: absolute;
     font-weight: bolder;
-    bottom: 25px;
+    bottom: 23px;
     text-align: justify;
-    width: 230px;
+    width: 215px;
 }
 /*Rodapé*/
 footer{
