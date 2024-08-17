@@ -137,14 +137,15 @@ p#baseball{
     text-align: justify;
     width: 210px;
     position: absolute;
-    top: 210px;
+    top: 200px;
 }
 p#ciclismo{
     font-size: 0.6em;
     font-weight: bolder;
     text-align: justify;
     width: 215px;
-    
+    position: absolute;
+    top: 320px;
 }
 p#natacao{
     font-size: 0.6em;
