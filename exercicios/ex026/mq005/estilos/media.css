@@ -132,10 +132,10 @@ Grandes telas : acima de 1200px
         height: 260px;
     }
     main h2{
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
     h2.transp{
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
     main p{
         font-size: 1.2em;
@@ -192,5 +192,96 @@ Grandes telas : acima de 1200px
         bottom: 50px;
         text-align: justify;
         width: 550px;
+    }
+}
+
+/*Monitor*/
+@media screen and (min-width:1200px) and (max-width:1550px){
+    header{
+        background-image: linear-gradient(to bottom, var(--cor3) , var(--cor5));
+    }
+    header h1{
+        font-size: 5.5em;
+    }
+    header p{
+        font-size: 1.0em;
+    }
+    span#burguer{
+        display: none;
+        
+    }
+    menu{
+        display: block;
+        background-color: var(--cor4);
+    }
+    menu>ul>li{
+        display: inline-block;
+    }
+    main{
+        width: 75vw;
+        height: 340px;
+    }
+    main h2{
+        font-size: 1.7em;
+    }
+    h2.transp{
+        font-size: 1.7em;
+    }
+    main p{
+        font-size: 1.5em;
+
+    }
+    menu > ul >li >a{
+        border-top: 0px;
+        padding: 20px;
+        color: var(--cor1);
+        font-size: 1.2em;
+        background-color: var(--cor4);
+    }
+    menu> ul >li> a:hover{
+        background-color: var(--cor3);
+        color: var(--cor5);
+        transition-duration: 0.7s;
+    }
+    /*configurações das imagens*/
+    section#noticias img{
+        width: 350px;
+        height: 300px;
+        padding-left: 20px;
+    }
+    p.jogosp{
+        font-size: 2.0em;
+        display: inline-block;
+        padding-left: 30px;
+        color: var(--cor5);
+    }
+    /*Aumento de parágrafos em telas grandes*/
+    p#jogo{
+        font-size: 1.4em;
+        position: absolute;
+        top: 145px;
+        text-align: justify;
+        width: 545px;
+    }
+    p#baseball{
+        font-size: 1.4em;
+        position: absolute;
+        top: 490px;
+        text-align: justify;
+        width: 550px;
+    }
+    p#ciclismo{
+        font-size: 1.4em;
+        position: absolute;
+        text-align: justify;
+        top: 790px;
+        width: 555px;
+    }
+    p#natacao{
+        font-size: 1.4em;
+        position: absolute;
+        bottom: 50px;
+        text-align: justify;
+        width: 515px;
     }
 }
