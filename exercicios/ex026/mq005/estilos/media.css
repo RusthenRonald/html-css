@@ -193,6 +193,7 @@ Grandes telas : acima de 1200px
         text-align: justify;
         width: 550px;
     }
+    
 }
 
 /*Monitor*/
@@ -283,5 +284,133 @@ Grandes telas : acima de 1200px
         bottom: 50px;
         text-align: justify;
         width: 515px;
+    }
+}
+/*Telas maiores que 1550px*/
+@media screen and (min-width:1550px){
+    header{
+        background-image: linear-gradient(to bottom, var(--cor3) , var(--cor5));
+    }
+    header h1{
+        font-size: 5.5em;
+    }
+    header p{
+        font-size: 1.0em;
+    }
+    span#burguer{
+        display: none;
+        
+    }
+    menu{
+        display: block;
+        background-color: var(--cor4);
+    }
+    menu>ul>li{
+        display: inline-block;
+    }
+    menu > ul >li >a{
+        border-top: 0px;
+        padding: 20px;
+        color: var(--cor1);
+        font-size: 1.3em;
+        background-color: var(--cor4);
+    }
+    menu> ul >li> a:hover{
+        background-color: var(--cor3);
+        color: var(--cor5);
+        transition-duration: 0.7s;
+    }
+    main{
+        width: 75vw;
+        height: 280px;
+    }
+    main h2{
+        font-size: 1.7em;
+    }
+    h2.transp{
+        font-size: 1.9em;
+        height: 35px;
+        padding-left: 30px;
+    }
+    main p{
+        font-size: 1.5em;
+
+    }
+    
+    /*configurações das imagens*/
+    section#noticias img{
+        width: 500px;
+        height: 410px;
+        padding-left: 20px;
+    }
+    p.jogosp{
+        font-size: 2.0em;
+        display: inline-block;
+        padding-left: 50px;
+        color: var(--cor5);
+    }
+    /*Aumento de parágrafos em telas grandes*/
+    p#jogo{
+        font-size: 1.6em;
+        position: absolute;
+        top: 175px;
+        text-align: justify;
+        width: 550px;
+        font-weight: normal;
+        color: var(--cor5);
+    }
+    p#baseball{
+        font-size: 1.6em;
+        position: absolute;
+        top: 630px;
+        text-align: justify;
+        width: 550px;
+        font-weight: normal;
+        color: var(--cor5);
+    }
+    p#ciclismo{
+        font-size: 1.6em;
+        position: absolute;
+        text-align: justify;
+        top: 1030px;
+        width: 535px;
+        font-weight: normal;
+        color: var(--cor5);
+    }
+    p#natacao{
+        font-size: 1.6em;
+        position: absolute;
+        bottom: 95px;
+        text-align: justify;
+        width: 535px;
+        font-weight: normal;
+        color: var(--cor5);
+    }
+    img#natacao{
+        margin-bottom: 30px;
+    }
+    /*Rodapé*/
+    footer{
+        background-color: var(--cor5);
+        height: 150px;
+    }
+    footer p{
+        text-align: center;
+        padding-top: 40px;
+        color: white;
+    }
+    footer a{
+        color: white;
+        text-decoration: none;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1.1em;
+    }
+    footer a:hover{
+        text-decoration: underline;
+    }
+    a#Criadores{
+        font-size: 1.7em;
+        text-decoration: none;
+        font-variant: small-caps;
     }
 }

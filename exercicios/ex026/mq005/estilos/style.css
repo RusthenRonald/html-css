@@ -96,7 +96,7 @@ section#noticias {
     position: relative;
 }
 h2.transp{
-    height: 25px;
+    height: 15px;
     padding: 15px;
     font-size: 1em;
     background-image: linear-gradient(to right,var(--cor2),transparent);
@@ -115,7 +115,7 @@ img#ciclismo{
 }
 img#natacao{
     margin-top: 20px;
-    
+    margin-bottom: 20px;
 }
 p.jogosp{
     width: 190px;
@@ -150,7 +150,7 @@ p#natacao{
     font-size: 0.6em;
     position: absolute;
     font-weight: bolder;
-    bottom: 10px;
+    bottom: 25px;
     text-align: justify;
     width: 230px;
 }
@@ -163,6 +163,7 @@ footer p{
     text-align: center;
     padding-top: 40px;
     color: white;
+    
 }
 footer a{
     color: white;
