@@ -116,23 +116,22 @@ img#natacao{
     
 }
 p.jogosp{
-    width: 290px;
-    font-size: 1.1em;
+    width: 190px;
     display: inline-block;
     padding-left: 10px;
 }
 /*Diminuição da fonte de cada parágrafo*/
 p#jogo{
-    font-size: 0.8em;
+    font-size: 0.5em;
 }
 p#baseball{
-    font-size: 0.8em;
+    font-size: 0.5em;
 }
 p#ciclismo{
-    font-size: 0.8em;
+    font-size: 0.5em;
 }
 p#natacao{
-    font-size: 0.7em;
+    font-size: 0.5em;
     position: absolute;
     bottom: 10px;
 }
