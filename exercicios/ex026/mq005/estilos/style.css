@@ -85,6 +85,7 @@ main{
 article h2{
     padding-bottom: 15px;
     color: var(--cor5);
+    font-size: 1.3em;
 }
 article p{
     text-align: justify;
@@ -97,6 +98,7 @@ section#noticias {
 h2.transp{
     height: 25px;
     padding: 15px;
+    font-size: 1em;
     background-image: linear-gradient(to right,var(--cor2),transparent);
     margin-bottom: 20px;
 }
