@@ -27,6 +27,8 @@ header h1{/*item*/
 nav{/*container interno*/
     border: 2px dotted black;
     display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
 nav>a{/*itens*/
     text-decoration: none;
