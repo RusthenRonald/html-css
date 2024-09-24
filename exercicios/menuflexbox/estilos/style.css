@@ -21,11 +21,9 @@ header{/*container*/
     align-items: center;
 }
 header h1{/*item*/
-    border: 2px dotted black;
     flex: 0 0 200px;
 }
 nav{/*container interno*/
-    border: 2px dotted black;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -50,7 +48,7 @@ main{
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.308);
-    width: 650px;
+    width: 60vw;
 }
 div#container{
     display: flex;
