@@ -22,6 +22,7 @@ header{/*container*/
 }
 header h1{/*item*/
     flex: 0 0 200px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.788);
 }
 nav{/*container interno*/
     display: flex;
